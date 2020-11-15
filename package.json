@@ -1,0 +1,34 @@
+{
+  "name": "serverless-rest-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "config": "^3.3.2",
+    "consign": "^0.1.6",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^4.2.0",
+    "serverless-http": "^2.6.0"
+  },
+  "devDependencies": {
+    "serverless-offline": "^6.8.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "export NODE_ENV=dev && serverless offline start --skipCacheInvalidation",
+    "deploy": "serverless deploy -v"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victorfariasoliveira/serverless-rest-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/victorfariasoliveira/serverless-rest-api/issues"
+  },
+  "homepage": "https://github.com/victorfariasoliveira/serverless-rest-api#readme"
+}

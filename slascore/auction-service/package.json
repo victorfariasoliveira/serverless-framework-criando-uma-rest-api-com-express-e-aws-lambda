@@ -27,6 +27,8 @@
     "deploy": "sls deploy -v",
     "deploy:fixhour": "sudo ntpdate pool.ntp.org && sls deploy -v",
     "deploy:function": "sls deploy -v -f",
-    "remove": "sls remove -v"
+    "remove": "sls remove -v",
+    "logs": "sls logs -t -f",
+    "exec:manual": "sls invoke -l -f"
   }
 }
